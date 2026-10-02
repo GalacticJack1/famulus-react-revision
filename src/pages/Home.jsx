@@ -20,7 +20,7 @@ function handleSearchSubmit(event) {
 
     const cleanedSearch = search.trim();
 
-    navigate(`/spells?search=${encodeURIComponent(search)}`);
+    navigate(`/spells?search=${encodeURIComponent(cleanedSearch)}`);
 }
 
 useEffect(function () {
