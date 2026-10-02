@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
 import Searchbar from "../components/SearchBar";
 import { useNavigate } from "react-router-dom";
 import emmy from "../assets/Famemmy.png"

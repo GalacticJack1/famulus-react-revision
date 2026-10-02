@@ -114,16 +114,16 @@ const bookClassesByClass = {
         setSearchInput(event.target.value);
     }
 
-    function handleSearchSubmit(event) {
-        event.preventDefault();
+   function handleSearchSubmit(event) {
+    event.preventDefault();
 
-        const cleanedSearch = searchInput.trim();
+    const cleanedSearch = searchInput.trim();
 
-        setSearchParams({
-            search: cleanedSearch            
-        });
-    }
-
+    setSearchParams({
+        search: cleanedSearch
+    });
+}   
+    
     const classOptions = [
         "WIZARD",
         "SORCERER",
